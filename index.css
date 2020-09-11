@@ -143,13 +143,7 @@ nav a {
 	width: 25%;
 	height: 200px;
 }
-/* CONTAINER FOR FOOTER */
-.footer {
-	margin: 1em 0 0;
-	display: flex;
-	justify-content: center;
-	background-color: white;	
-}
+
 
 .pers {
 	color: white;
@@ -159,6 +153,13 @@ nav a {
 	text-align: center;
 }
 
+/* CONTAINER FOR FOOTER */
+.footer {
+	margin: 1em 0 0;
+	display: flex;
+	justify-content: center;
+	background-color: white;	
+
 /* LINK TO CONTACT */
 .footer .contact {
 	color: white;
@@ -167,5 +168,6 @@ nav a {
 	text-decoration: none;
 	align-content: space-around;
 	margin: 2em 0 2em;
-	border: 5px solid white;
+	
 	padding: 15px;
+
