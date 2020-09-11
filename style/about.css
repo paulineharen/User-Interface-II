@@ -106,3 +106,29 @@ nav a {
     font-family: 'M PLUS 1p', sans-serif;
 	font-size: 1em;
 }
+
+.footer {
+	margin: 1em 0 0;
+	display: flex;
+	justify-content: center;
+	background-color: white;	
+}
+
+.pers {
+	color: white;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	text-align: center;
+}
+
+/* LINK TO CONTACT */
+.footer .contact {
+	color: white;
+	font-family: 'Libre Barcode 128 Text', cursive;
+	font-size: 40px;
+	text-decoration: none;
+	align-content: space-around;
+	margin: 2em 0 2em;
+	border: 5px solid white;
+	padding: 15px;
