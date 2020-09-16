@@ -51,6 +51,17 @@ table {
     background-color: black;
 }
 
+@media screen and (max-width: 800px) {
+	* {
+	  background-color: #68696e;
+	}
+  }
+
+@media screen and (max-width: 500px) {
+	* {
+	  background-color: #898a91;
+	}
+  }
 /* CONTAINER FOR H2 NAME AND NAV LINKS */
 nav {
 	display: flex;
@@ -59,6 +70,20 @@ nav {
 	justify-content: flex-end;
 	position: relative;
 	margin-right: 80px;
+
+	
+@media screen and (max-width: 800px) {
+	nav {
+	  background-color: #68696e;
+	}
+  }
+
+@media screen and (max-width: 500px) {
+	nav {
+	  background-color: #898a91;
+	  flex-direction: column;
+	}
+  }
 }
  
 /* H2 PAULINE HAREN */
