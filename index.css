@@ -121,6 +121,34 @@ body {
     }
   }
   
+  @media screen and (max-width: 500px) {
+    * {
+      background-color: rgb(73, 86, 90);
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header .nav {
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+    }
+
+    .header .nav li {
+      margin: 10px;
+     }
+
+    .main_c {
+      text-align: center;
+    }
+
+    .main_c h2 {
+      margin-bottom: 1em;
+    }
+  }
 
   .main_c {
       background-color: white;
