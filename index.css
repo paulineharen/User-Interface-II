@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    background: black;
+}
+
+body {
+    margin: 0;
+  }
+  @media screen and (max-width: 800px) {
+	* {
+	  background-color: rgb(6, 44, 56);
+	}
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		align-content: space-around;		
+	}
+
+	nav a {
+		margin-top: 20px;
+		
+	}
+
+	nav a:hover {
+		background-color: white;
+		color: black;
+	}
+
+	.main_c {
+		display: flex;	
+		justify-content: center;
+
+	}
+	
+	.gallery {
+		display: flex;
+		flex-wrap: wrap;
+	 	}
+	
+	
+/* IMAGES IN GALLERY */
+	.gal {
+		justify-content: center;
+	}
+
+
+  }
+
+  .header {
+    padding: 0 45px;
+    color: #FFF;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 2em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 0.5em;
+    display: block;
+    transition: all 0.3s ease-out;
+    font-family: 'M PLUS 1p', sans-serif;
+  }
+  
+  .nav a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+  }
+  
+  .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav li {
+    margin-left: 20px;
+  }
+
+  .main_c {
+      background-color: white;
+      padding: 60px 60px;
+      margin: 0 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .main_c h2 {
+      background-color: white;
+      color: black;
+      font-family: 'M PLUS 1p', sans-serif;
+  }
+
+  .main_c a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin-top: .05em;
+    font-family: 'Libre Barcode 128 Text', cursive;  
+    font-size: 1.5em;
+
+}
+
+  .gallery {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .gal {
+        flex-grow: 1;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 40px;
+        width: 25%;
+        height: 150px;
+        color: white;
+        text-align: center;
+  }
+
+  /* CONTAINER FOR FOOTER */
+.footer_contact {
+	margin: 1em 0 0;
+	display: flex;
+	justify-content: center;
+	background-color: white;	
+}
+
+/* LINK TO CONTACT */
+.footer .contact {
+	color: white;
+	font-family: 'Libre Barcode 128 Text', cursive;
+	font-size: 40px;
+	text-decoration: none;
+	align-content: space-around;
+	margin: 2em 0 2em;
+	border: 5px solid white;
+	padding: 15px;
+
+.footer .social {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
+
+  
