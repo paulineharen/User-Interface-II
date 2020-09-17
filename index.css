@@ -53,48 +53,7 @@ table {
 body {
     margin: 0;
   }
-  @media screen and (max-width: 800px) {
-	* {
-	  background-color: rgb(6, 44, 56);
-	}
 
-	nav {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		align-content: space-around;		
-	}
-
-	nav a {
-		margin-top: 20px;
-		
-	}
-
-	nav a:hover {
-		background-color: white;
-		color: black;
-	}
-
-	.main_c {
-		display: flex;	
-		justify-content: center;
-
-	}
-	
-	.gallery {
-		display: flex;
-		flex-wrap: wrap;
-	 	}
-	
-	
-/* IMAGES IN GALLERY */
-	.gal {
-		justify-content: center;
-	}
-
-
-  }
 
   .header {
     padding: 0 45px;
@@ -117,8 +76,9 @@ body {
   }
   
   .nav a:hover {
-    color: #c5cae9;
+    color: black;
     transform: rotate(6deg);
+    background-color: white;
   }
   
   .nav {
@@ -131,6 +91,36 @@ body {
   .nav li {
     margin-left: 20px;
   }
+
+  @media screen and (max-width: 800px) {
+    * {
+      background-color: rgb(6, 44, 56);
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header .nav {
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+    }
+
+    .header .nav li {
+      margin: 10px;
+     }
+
+    .main_c {
+      text-align: center;
+    }
+
+    .main_c h2 {
+      margin-bottom: 1em;
+    }
+  }
+  
 
   .main_c {
       background-color: white;
@@ -193,13 +183,3 @@ body {
 	border: 5px solid white;
 	padding: 15px;
 
-.footer .social {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-
-
-
-  
